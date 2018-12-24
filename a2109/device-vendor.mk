@@ -14,7 +14,6 @@
 
 LOCAL_STEM := a2109/device-partial.mk
 
-$(call inherit-product-if-exists, vendor/lenovo/$(LOCAL_STEM))
 $(call inherit-product-if-exists, vendor/broadcom/$(LOCAL_STEM))
 $(call inherit-product-if-exists, vendor/nvidia/$(LOCAL_STEM))
 $(call inherit-product-if-exists, vendor/widevine/arm-generic/widevine-vendor.mk)

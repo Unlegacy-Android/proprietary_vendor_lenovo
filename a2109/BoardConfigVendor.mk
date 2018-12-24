@@ -14,7 +14,6 @@
 
 LOCAL_STEM := a2109/BoardConfigPartial.mk
 
--include vendor/lenovo/$(LOCAL_STEM)
 -include vendor/broadcom/$(LOCAL_STEM)
 -include vendor/nvidia/$(LOCAL_STEM)
 -include vendor/widevine/arm-generic/BoardConfigVendor.mk
